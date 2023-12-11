@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+list-Nav {
+    list-style-type: none;
+}
+
+navBar {
+    position: fixed;
+    z-index: var(--zindex-nav);
+    top:0;
+    right:0;
+    width:100%;
+    padding: O var(16px);
+}

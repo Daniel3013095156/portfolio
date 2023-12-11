@@ -1,0 +1,43 @@
+.baseNabvar {
+    position: fixed;
+    z-index: var(--zindex-nav);
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 var(--16px);
+}
+
+.navBar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--20px auto 0);
+    position: relative;
+}
+
+.navBar-list {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+}
+
+.list-Nav {
+    display: flex;
+    width: 159px;
+    height: 58px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Glory', sans-serif;
+    padding: calc(var(--16px) -10 px) calc(var(--16px) - 6px);
+    margin: 0 3px;
+    color: #425C9F;
+    text-align: center;
+    font-family: Glory;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
